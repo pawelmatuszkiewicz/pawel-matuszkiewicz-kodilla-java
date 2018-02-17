@@ -1,6 +1,7 @@
 package com.kodilla.stream;
 
 import com.kodilla.stream.beautifier.PoemBeautifier;
+import com.kodilla.stream.iterate.NumbersGenerator;
 import com.kodilla.stream.lambda.*;
 import com.kodilla.stream.reference.FunctionalCalculator;
 
@@ -18,8 +19,9 @@ public class StreamMain {
         strToDecorate = "   This is an example text to decorate.   ";
         poemBeautifier.beautify(strToDecorate, s -> "---" + s.trim() + "---");
         poemBeautifier.beautify(strToDecorate, s -> s.replaceAll(" ", "_"));
-        
-        
+
+        System.out.println("\nUsing Stream to generate even numbers from 1 to 20");
+        NumbersGenerator.generateEven(20);
         
 //        SaySomething saySomething = new SaySomething();
 //        saySomething.say();
