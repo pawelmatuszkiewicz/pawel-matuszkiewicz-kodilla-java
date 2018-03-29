@@ -8,11 +8,11 @@ public class RandomMoveGenerator {
     public static Move drawMove() {
         int n = randomGenerator.nextInt(3);
         if(n == 0) {
-            return Move.ROCK;
+            return new Move("ROCK");
         } else if(n == 1) {
-            return Move.PAPER;
+            return new Move("PAPER");
         } else {
-            return Move.SCISSORS;
+            return new Move("SCISSORS");
         }
     }
 }

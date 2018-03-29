@@ -13,8 +13,8 @@ public class RpsInfo {
 
     static void printRoundIntro(int roundNr) {
         System.out.println("------ Round #" + roundNr + "------");
-        System.out.println("\tMake a move: ROCK - [1], PAPER - [2]," +
-                " SCISSORS - [3]     (Exit - [x], New game - [n])");
+        System.out.println("\tMake a move: [1] - ROCK, [2] - PAPER," +
+                " [3] - SCISSORS      [x] - Exit, [n] - New game");
     }
 
     static void printRoundResult(final Player player, final Player computer, final String result) {
