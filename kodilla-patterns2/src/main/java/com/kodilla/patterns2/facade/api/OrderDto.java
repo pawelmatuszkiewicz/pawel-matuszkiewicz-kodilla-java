@@ -1,7 +1,5 @@
 package com.kodilla.patterns2.facade.api;
 
-import com.kodilla.patterns2.facade.Item;
-
 import java.util.ArrayList;
 import java.util.List;
 
